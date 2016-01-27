@@ -405,3 +405,32 @@ body{
     text-align: center;
     color: dimgrey;
 }
+
+@media only screen and (max-width:768px){
+    body{
+        width: 100%;
+        background-color: aqua;
+         margin: 0 auto;
+    }
+
+    section{
+        width: 100%
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width:720px){
+    body{
+         margin: 0 auto;
+        width: 100%;
+        background-color: blueviolet;
+    }
+}
+
+
+@media only screen and (min-width:721px) and (max-width:1280px){
+    body{
+         margin: 0 auto;
+        width: 100%;
+        background-color: darksalmon;
+    }
+}
